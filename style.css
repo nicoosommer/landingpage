@@ -34,13 +34,13 @@
 
 /* Segunda seccion */
 
-.sub-footer{ 
+.sub-header{ 
     background-color: #1F2937;
     display: flex;
     justify-content: center;
     padding: 50px;
 }
-.sub-footer .txt{
+.sub-header .txt{
     max-width: 25vw;
     display: flex;
     flex-direction: column;
@@ -50,12 +50,12 @@
     font-size: 18px;
     color: #E5E7EB;
 }
-.sub-footer .txt h2{
+.sub-header .txt h2{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
-.sub-footer .txt button{
+.sub-header .txt button{
     background-color: #3882F6;
     border: 1px solid transparent;
     border-radius: 20px;
@@ -64,16 +64,16 @@
     font-size: 18px;
     color: #E5E7EB;
 }
-.sub-footer .txt button:hover{
+.sub-header .txt button:hover{
     opacity: 0.7;
     cursor: pointer;
 }
-.sub-footer img{
+.sub-header img{
     height: 250px;
     width: auto;
     margin-left: 40px;
 }
-.sub-footer img:hover{
+.sub-header img:hover{
     opacity: .8;
 }
 
@@ -127,7 +127,7 @@
 
 .quote{
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     background-color: #E5E7Eb;
     display: flex;
     flex-direction: column;
@@ -138,9 +138,42 @@
 .quote h3{
     text-align: center;
     font-style: italic;
+    font-size: 30px;
 }
 .quote h5{
-    font-size: 30px;
+    font-size: 25px;
     opacity: 0.8;
     align-self: flex-end;
+}
+
+/* Quinta seccion */
+
+.tarjeta{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta-sub{
+    background-color: #3882F6;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    border-radius: 5px;
+}
+.tarjeta-sub .texto{
+    color: whitesmoke;
+}
+.tarjeta .tarjeta-sub button{
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+.tarjeta .tarjeta-sub button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 13px;
 }
